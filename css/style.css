@@ -1,0 +1,592 @@
+/* Fonte PT-SANS */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,600&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* CSS reset */
+
+* {
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*  font-family: 'PT Sans', sans-serif;
+    color: white; */
+}
+
+.container {
+  display: flex;
+  justify-content: left;
+  margin: 0 auto;
+}
+
+#menu_hamb {
+  display: none;
+}
+
+.hamburguer {
+  margin-right: 10px;
+}
+
+.logoTopo {
+  width: 137px;
+  height: 30px;
+  min-height: 60%;
+  display: flex;
+  justify-content: left;
+  margin: 0 auto;
+}
+
+body {
+  background-color: rgb(10, 10, 10);
+}
+
+header {
+  background-color: rgb(0, 0, 143);
+  height: 50px;
+  width: 1290px;
+  display: flex;
+}
+
+.MainMenu {
+  margin-left: 30px;
+
+  display: flex;
+
+  align-items: center;
+
+  font-size: 18px;
+  font-family: "PT Sans", sans-serif;
+  color: white;
+}
+
+.formato-submenu {
+  margin-left: 0px;
+  padding: 0px;
+  display: flex;
+  width: 1340px;
+  height: 30px;
+  background-color: #042f56;
+  background-blend-mode: overlay;
+}
+
+.margem {
+  margin-right: 10px;
+}
+
+.caixa_entrada {
+  height: 27px;
+  margin-left: 30px;
+  margin-right: 10px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+  /* text-align: center; */
+}
+
+.MainMenuContainer {
+  display: flex;
+  width: 600px;
+  margin-left: 0px;
+  vertical-align: middle;
+}
+
+.ItensMainMenu {
+  display: flex;
+  width: 600px;
+  margin: 10px;
+  font-family: "PT Sans", sans-serif;
+  color: white;
+
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.ItensMainMenu a {
+  width: 100px;
+  justify-items: space-between;
+  vertical-align: middle;
+  font-family: "PT Sans", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.ItensMainMenu a:hover {
+  justify-items: space-between;
+  font-family: "PT Sans", sans-serif;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.Itens-subMenu1 {
+  display: flex;
+
+  width: 200px;
+
+  margin: 0px;
+
+  margin-left: 35px;
+
+  font-family: "PT Sans", sans-serif;
+
+  color: white;
+
+  text-align: left;
+
+  font-size: 1em;
+
+  text-decoration: none;
+
+  text-transform: uppercase;
+}
+
+.Itens-subMenu1 a {
+  width: 100px;
+
+  justify-items: space-between;
+
+  vertical-align: middle;
+
+  font-family: "PT Sans", sans-serif;
+
+  color: white;
+
+  text-decoration: none;
+}
+
+.Itens-subMenu2 {
+  display: flex;
+  width: 1000px;
+  margin: 0px;
+  margin-left: 70px;
+  font-family: "PT Sans", sans-serif;
+  color: white;
+  text-align: left;
+  font-size: 18px;
+  text-decoration: none;
+}
+.Itens-subMenu2 a {
+  width: 100px;
+
+  justify-items: space-between;
+
+  vertical-align: middle;
+
+  font-family: "PT Sans", sans-serif;
+
+  color: white;
+
+  text-decoration: none;
+}
+
+.specs_bola {
+  height: 40px;
+}
+
+.MainMenuLog {
+  display: flex;
+  width: 150px;
+  height: 50px;
+
+  font-size: 18px;
+  font-family: "PT Sans", sans-serif;
+  color: white;
+
+  margin-left: 50px;
+  justify-content: center;
+
+  align-items: center;
+
+  /* text-transform: uppercase; */
+}
+
+.MainMenuLog a {
+  text-decoration: none;
+  font-family: "PT Sans", sans-serif;
+  color: white;
+}
+
+.MainMenuLog a:hover {
+  font-weight: 600;
+}
+
+.caixa_form {
+  display: flex;
+  width: 1000px;
+  align-items: center;
+
+  font-family: "PT Sans", sans-serif;
+  color: white;
+
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 100px;
+
+  background-color: rgb(0, 0, 143);
+  font-size: 150%;
+  color: white;
+  padding: 30px;
+}
+
+.login-nome {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 290px;
+  height: 50px;
+  padding: 20px;
+}
+
+.login-senha {
+  /*  align-items: center;
+     display: flex;
+     justify-content:center;
+     flex-direction: column;
+     margin-top: 0px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 290px;
+  height: 50px;
+  padding: 20px;
+}
+
+.campo-email {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  height: 50px;
+  padding: 20px;
+}
+
+.bt_login {
+  width: 270px;
+  height: 35px;
+  margin-top: 30px;
+
+  color: white;
+  background-color: #1f80c0;
+
+  border: none;
+
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 15px;
+
+  cursor: pointer;
+}
+
+.banner {
+  height: 610px;
+  padding: 0px;
+
+  /* align-self: center; */
+
+  /* background-repeat: no-repeat; */
+
+  background-position: center;
+
+  background-size: cover;
+
+  background-color: coral;
+}
+
+.banner_imagem_01 {
+  background-image: url(../img/banner/banner_imagem_01.png);
+}
+
+.texto_banner {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 8%;
+  position: absolute;
+}
+
+.texto_banner h1 {
+  font-size: 5em;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.texto_banner h2 {
+  font-size: 3.5em;
+  text-decoration: none;
+  font-style: oblique;
+}
+
+/* ofertas */
+
+.barra_ofertas {
+  display: flexbox;
+  justify-content: space-around;
+  align-items: space-between;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+
+  background-color: #1a1a1a;
+  margin-top: 5px;
+  height: 210px;
+}
+
+.card_oferta {
+  /* display: flex; */
+  padding-top: 10px;
+  height: 200px;
+  width: 350px;
+}
+
+.texto_oferta h1 {
+  font-size: 1.1em;
+  color: white;
+}
+
+.body_card {
+  display: flex;
+  width: 100%;
+  height: 150px;
+
+  align-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.barra_azul {
+  height: 100%;
+  width: 15px;
+  background-color: #1f1961;
+}
+
+.imagem_card {
+  padding-left: 20%;
+  justify-content: center;
+}
+
+.dados_oferta_azul {
+  width: 60%;
+  height: 40px;
+
+  background-color: #04203a;
+}
+.preco_oferta_azul {
+  display: flex;
+  align-content: center;
+  /* align-items: center; */
+  width: 50%;
+  height: 40px;
+
+  background-color: #1f1961;
+}
+
+.preco_oferta_azul h1 {
+  font-size: 1em;
+  text-align: center;
+  align-items: center;
+  padding-top: 1em;
+  padding-right: 0.7em;
+  border-right: 12px;
+}
+.preco_oferta_azul h2 {
+  font-size: 3.3em;
+  text-align: right;
+  align-items: center;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+#lixo {
+  height: 1200px;
+}
+
+.texto_oferta {
+  display: flex;
+  font-size: 0.7em;
+  color: white;
+}
+.texto_oferta h1 {
+  margin-left: 1em;
+}
+.texto_oferta p {
+  margin-left: 1em;
+}
+
+.barra_vermelha {
+  height: 100%;
+  width: 15px;
+  background-color: #971820;
+}
+.dados_oferta_vermelho {
+  width: 60%;
+  height: 40px;
+
+  background-color: #700b11;
+}
+.preco_oferta_vermelho {
+  display: flex;
+  align-content: center;
+  /* align-items: center; */
+  width: 50%;
+  height: 40px;
+
+  background-color: #971820;
+}
+
+.preco_oferta_vermelho h1 {
+  font-size: 1em;
+  text-align: center;
+  align-items: center;
+  padding-top: 1em;
+  padding-right: 0.7em;
+  border-right: 12px;
+}
+.preco_oferta_vermelho h2 {
+  font-size: 3.3em;
+  text-align: right;
+  align-items: center;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.barra_ciano {
+  height: 100%;
+  width: 15px;
+  background-color: #159ab8;
+}
+
+.dados_oferta_ciano {
+  width: 60%;
+  height: 40px;
+
+  background-color: #0e5363;
+}
+.preco_oferta_ciano {
+  display: flex;
+  align-content: center;
+  /* align-items: center; */
+  width: 50%;
+  height: 40px;
+
+  background-color: #159ab8;
+}
+
+.preco_oferta_ciano h1 {
+  font-size: 1em;
+  text-align: center;
+  align-items: center;
+  padding-top: 1em;
+  padding-right: 0.7em;
+  border-right: 12px;
+}
+.preco_oferta_ciano h2 {
+  font-size: 3.3em;
+  text-align: right;
+  align-items: center;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.news_assina {
+  width: 100%;
+  height: 183px;
+  display: flex;
+  background-image: url(../img/newsletter/Banner_email.png);
+}
+
+.texto_news {
+  width: 50%;
+  color: rgb(255, 255, 255);
+}
+
+.texto_news h2 {
+  font-size: 300%;
+  letter-spacing: 0.1em;
+  font-weight: lighter;
+}
+.texto_news h1 {
+  line-height: 0.5em;
+  font-size: 500%;
+  font-weight: bold;
+}
+
+.texto_news h3 {
+  line-height: 1.4em;
+  font-size: 230%;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.texto_news {
+  width: 50%;
+  color: rgb(255, 255, 255);
+}
+
+.dados_news {
+  padding-left: 5px;
+  width: 60%;
+  color: white;
+  background-color: #da34424d;
+}
+
+.dados_news h1 {
+  color: rgb(255, 255, 255);
+  font-size: 150%;
+  font-weight: 500;
+
+  margin-bottom: 0px;
+}
+
+.caixa_email {
+  color: black;
+  font-weight: 500;
+  width: 95%;
+}
+
+.email_check {
+  margin-top: 0px;
+  display:inline-table;
+  width: 22%;
+  height: 70px;
+ /*  background-color: #f1d8da4d; */
+}
+
+.check_item {
+  margin-right: 10px;
+  font-size: 80%;
+}
+
+.coluna_check {
+  display: inline;
+  width: 33%;
+}
+
+.area_email_botao{
+  display:inline-table;
+ /*  align-items:center; */
+ /*  align-content: center; */
+  margin:auto;
+  width: 30%;
+  height: 75px;
+  padding-top: 0px;
+  margin-top: 0px;
+  /* background-color: #c2a7a973; */
+
+}
+
+.botao_email{
+  text-align: center;
+  margin-top: 0px;
+  background-color: #07054b;
+  padding-top: 5px;
+  padding-bottom: 1px;
+}
+
+.botao_email h2 {
+  line-height: 90%;
+  font-size: 80%;
+  font-weight: 500;
+
+}
